@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Sealing Permission | R G International</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .dropdown:hover .dropdown-menu { display: block; }
+    </style>
+    <script src="/RGI/navbar.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+
+    <main-navbar></main-navbar>
+
+    <section class="bg-blue-800 text-white py-16 px-4 text-center border-b-8 border-blue-600">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Self-Sealing Permission</h1>
+        <p class="text-lg text-blue-200 max-w-2xl mx-auto">Expedite your export shipments with factory stuffing and RFID e-sealing.</p>
+    </section>
+
+    <section class="py-16 px-4 max-w-5xl mx-auto flex-grow">
+        <div class="mb-12">
+            <h2 class="text-3xl font-bold text-slate-800 mb-6">What is Factory Stuffing & Self-Sealing?</h2>
+            <p class="text-slate-600 leading-relaxed mb-4">
+                Traditionally, exporters must send loose cargo to a Container Freight Station (CFS) where customs officers physically examine the goods before they are stuffed into a container and sealed. 
+            </p>
+            <p class="text-slate-600 leading-relaxed">
+                <strong>Self-Sealing Permission</strong> allows authorized exporters to stuff the container directly at their own factory or warehouse and seal it using an approved RFID (Radio Frequency Identification) e-seal. The container can then move directly into the port, bypassing CFS congestion.
+            </p>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md border border-slate-200 p-8 mb-12">
+            <h3 class="text-2xl font-bold text-slate-800 mb-6 border-b pb-4">Why Secure Self-Sealing Permission?</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul class="space-y-4 text-slate-700">
+                    <li class="flex items-start">
+                        <span class="text-blue-600 mr-2 text-xl">✔</span> 
+                        <span><strong>Cost Reduction:</strong> Eliminate costly CFS ground rent, labor charges for stuffing, and extra handling fees.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-blue-600 mr-2 text-xl">✔</span> 
+                        <span><strong>Zero Pilferage:</strong> Because the container is stuffed and sealed at your premises, the risk of cargo damage or theft during transit is virtually eliminated.</span>
+                    </li>
+                </ul>
+                <ul class="space-y-4 text-slate-700">
+                    <li class="flex items-start">
+                        <span class="text-blue-600 mr-2 text-xl">✔</span> 
+                        <span><strong>Faster Turnaround:</strong> Bypass lengthy customs queues at the CFS. Your truck goes straight to the port gate.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-blue-600 mr-2 text-xl">✔</span> 
+                        <span><strong>Data Integrity:</strong> RFID seals provide tamper-proof electronic tracking of your consignment.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bg-blue-50 rounded-xl shadow-inner border border-blue-100 p-8 mb-12">
+            <h3 class="text-2xl font-bold text-blue-900 mb-6 border-b border-blue-200 pb-4">Documents Required</h3>
+            <p class="text-slate-700 mb-6">
+                Permission is granted by the jurisdictional Principal Commissioner/Commissioner of Customs. The following documents are typically required:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+                <ul class="space-y-3 text-slate-700 list-disc list-inside pl-4 marker:text-blue-500">
+                    <li>Import Export Code (IEC) & GSTIN</li>
+                    <li>PAN Card of Company and Directors</li>
+                    <li>Ownership/Lease Proof of factory premises</li>
+                    <li>Factory Layout Plan</li>
+                </ul>
+                <ul class="space-y-3 text-slate-700 list-disc list-inside pl-4 marker:text-blue-500">
+                    <li>List of Authorized Signatories (with specimen signatures)</li>
+                    <li>Past export performance records</li>
+                    <li>Bank Realization Certificates (BRC) / e-BRC</li>
+                    <li>Declaration of clean legal record (No Customs offenses)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mb-12">
+            <h3 class="text-2xl font-bold text-slate-800 mb-6">Our Facilitation Process</h3>
+            <div class="space-y-6">
+                <div class="flex">
+                    <div class="flex-shrink-0 mt-1 mr-4 text-blue-600 font-bold text-xl">1.</div>
+                    <div>
+                        <h4 class="font-bold text-slate-800">Application Drafting & Filing</h4>
+                        <p class="text-slate-600 text-sm mt-1">We prepare your compliance dossier and submit the formal application to the relevant Customs authorities.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="flex-shrink-0 mt-1 mr-4 text-blue-600 font-bold text-xl">2.</div>
+                    <div>
+                        <h4 class="font-bold text-slate-800">Premises Verification</h4>
+                        <p class="text-slate-600 text-sm mt-1">We coordinate with the Superintendent of Customs during the physical site inspection to ensure your premises meet security standards.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="flex-shrink-0 mt-1 mr-4 text-blue-600 font-bold text-xl">3.</div>
+                    <div>
+                        <h4 class="font-bold text-slate-800">Approval & RFID Procurement</h4>
+                        <p class="text-slate-600 text-sm mt-1">Upon securing the permission, we assist you in registering with approved RFID seal vendors and integrating the web portal for data transmission.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="/RGI/Contact/contact-us" class="inline-block bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-8 rounded-md shadow transition">Get Sealing Permission</a>
+        </div>
+    </section>
+
+    <main-footer></main-footer>
+</body>
+</html>
